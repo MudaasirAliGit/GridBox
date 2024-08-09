@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(#5193E9,#A947F6);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: grid;
+    margin: 0px auto;
+    grid-template-areas: 
+    "mainbox1 mainbox2 mainbox3"
+    "mainbox4 mainbox5 mainbox6"
+    "mainbox7 mainbox8 mainbox9";
+    height: 80vh;
+    width: 80%;
+    background-color: transparent;
+    gap: 50px;
+}
+.mainbox1{
+    grid-area: mainbox1;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box1 box2 box3"
+    "box1 box2 box3";
+}
+.box1{
+    grid-area: box1;
+    border: 5px solid gray;
+}
+.box2{
+    grid-area: box2;
+    border: 5px solid gray;
+}
+.box3{
+    grid-area: box3;
+    border: 5px solid gray;
+}
+/* mainbox1 END */
+.mainbox2{
+    grid-area: mainbox2;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box4 box5"
+    "box4 box6";
+}
+.box4{
+    grid-area: box4;
+    border: 5px solid gray;
+}
+.box5{
+    grid-area: box5;
+    border: 5px solid gray;
+}
+.box6{
+    grid-area: box6;
+    border: 5px solid gray;
+}
+/* mainbox2 END */
+.mainbox3{
+    grid-area: mainbox3;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box7 box8 box9"
+    "box10 box11 box12";
+}
+.box7{
+    grid-area: box7;
+    border: 5px solid gray;
+}
+.box8{
+    grid-area: box8;
+    border: 5px solid gray;
+}
+.box9{
+    grid-area: box9;
+    border: 5px solid gray;
+}
+.box10{
+    grid-area: box10;
+    border: 5px solid gray;
+}
+.box11{
+    grid-area: box11;
+    border: 5px solid gray;
+}
+.box12{
+    grid-area: box12;
+    border: 5px solid gray;
+}
+/* mainbox3 END */
+.mainbox4{
+    grid-area: mainbox4;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box13 box14 box15"
+    "box16 box14 box17"
+    "box16 box18 box17";
+}
+.box13{
+    grid-area: box13;
+    border: 5px solid gray;
+}
+.box14{
+    grid-area: box14;
+    border: 5px solid gray;
+}
+.box15{
+    grid-area: box15;
+    border: 5px solid gray;
+}
+.box16{
+    grid-area: box16;
+    border: 5px solid gray;
+}
+.box17{
+    grid-area: box17;
+    border: 5px solid gray;
+}
+.box18{
+    grid-area: box18;
+    border: 5px solid gray;
+}
+/* mainbox4 END */
+.mainbox5{
+    grid-area: mainbox5;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box19 box20 box20"
+    "box21 box22 box23";
+}
+.box19{
+    grid-area: box19;
+    border: 5px solid gray;
+}
+.box20{
+    grid-area: box20;
+    border: 5px solid gray;
+}
+.box21{
+    grid-area: box21;
+    border: 5px solid gray;
+}
+.box22{
+    grid-area: box22;
+    border: 5px solid gray;
+}
+.box23{
+    grid-area: box23;
+    border: 5px solid gray;
+}
+/* mainbox5 END */
+.mainbox6{
+    grid-area: mainbox6;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box24 box24 box25"
+    "box24 box24 box26"
+    "box24 box24 box26"
+    "box27 box28 box29";
+}
+.box24{
+    grid-area: box24;
+    border: 5px solid gray;
+}
+.box25{
+    grid-area: box25;
+    border: 5px solid gray;
+}
+.box26{
+    grid-area: box26;
+    border: 5px solid gray;
+}
+.box27{
+    grid-area: box27;
+    border: 5px solid gray;
+}
+.box28{
+    grid-area: box28;
+    border: 5px solid gray;
+}
+.box29{
+    grid-area: box29;
+    border: 5px solid gray;
+}
+/* mainbox6 END */
+.mainbox7{
+    grid-area: mainbox7;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box30 box30 box31 box31"
+    "box30 box30 box31 box31"
+    "box30 box30 box32 box33"
+    "box30 box30 box34 box33";
+}
+.box30{
+    grid-area: box30;
+    border: 5px solid gray;
+}
+.box31{
+    grid-area: box31;
+    border: 5px solid gray;
+}
+.box32{
+    grid-area: box32;
+    border: 5px solid gray;
+}
+.box33{
+    grid-area: box33;
+    border: 5px solid gray;
+}
+.box34{
+    grid-area: box34;
+    border: 5px solid gray;
+}
+/* mainbox7 END */
+.mainbox8{
+    grid-area: mainbox8;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box35 box35 box36 box36 box37"
+    "box35 box35 box36 box36 box37"
+    "box35 box35 box36 box36 box38"
+    "box35 box35 box39 box40 box41"
+    "box35 box35 box39 box40 box41";
+}
+.box35{
+    grid-area: box35;
+    border: 5px solid gray;
+}
+.box36{
+    grid-area: box36;
+    border: 5px solid gray;
+}
+.box37{
+    grid-area: box37;
+    border: 5px solid gray;
+}
+.box38{
+    grid-area: box38;
+    border: 5px solid gray;
+}
+.box39{
+    grid-area: box39;
+    border: 5px solid gray;
+}
+.box40{
+    grid-area: box40;
+    border: 5px solid gray;
+}
+.box41{
+    grid-area: box41;
+    border: 5px solid gray;
+}
+/* mainbox8 END */
+.mainbox9{
+    grid-area: mainbox9;
+    background-color: #fff;
+    border: 5px solid #fff;
+    display: grid;
+    grid-template-areas: 
+    "box42 box43 box44 box45"
+    "box46 box46 box47 box47"
+    "box48 box49 box50 box51";
+}
+.box42{
+    grid-area: box42;
+    border: 5px solid gray;
+}
+.box43{
+    grid-area: box43;
+    border: 5px solid gray;
+}
+.box44{
+    grid-area: box44;
+    border: 5px solid gray;
+}
+.box45{
+    grid-area: box45;
+    border: 5px solid gray;
+}
+.box46{
+    grid-area: box46;
+    border: 5px solid gray;
+}
+.box47{
+    grid-area: box47;
+    border: 5px solid gray;
+}
+.box48{
+    grid-area: box48;
+    border: 5px solid gray;
+}
+.box49{
+    grid-area: box49;
+    border: 5px solid gray;
+}
+.box50{
+    grid-area: box50;
+    border: 5px solid gray;
+}
+.box51{
+    grid-area: box51;
+    border: 5px solid gray;
+}
+/* mainbox9 END */
